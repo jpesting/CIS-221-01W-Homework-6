@@ -7,10 +7,10 @@ Period: Spring 2022
 
 import java.util.Scanner; // Used for user input for integer guess
 
-public class Main { // Root Class - used to print results to the console
+public class Main { // Main Class - Used to prompt user input, call methods to compare the input with what is in store, and print those results
 
     public static void main(String[] args) { // Main method
-        Check store = new Check();
+        Check store = new Check(); // Create an instance of the Check subclass
         Scanner input = new Scanner(System.in); // Reference Scanner class - Used for user input
         
         System.out.println("Two dice will roll and you will guess the total:");
