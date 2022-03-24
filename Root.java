@@ -5,7 +5,7 @@ Time: Tuesdays and Thursdays at 2:10pm
 Period: Spring 2022
 */
 
-abstract class Root { // Private Values class - Used to withhold data from the user
+abstract class Root { // Abstract Root class - Used to withhold data from the user
     
     protected int die1 = Roll.roll(); // Assign roll 1 to a protected and randomly generated integer (1-6) using the roll method located in the Roll class
     protected int die2 = Roll.roll(); // Assign roll 2 to a protected and randomly generated integer (1-6) using the roll method located in the Roll class
