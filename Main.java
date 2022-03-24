@@ -31,8 +31,11 @@ public class Main { // Main Class - Used to prompt user input, call methods to c
             }
         } while ((value < 2) || (value > 12));
 
-        store.setValue(value); // Take "value" as an argument for the setValue method in the Check class located in Root and match it against the sum of the rolls
-        System.out.println("\nYour guess: " + store.getValue(value)); // Print the user's input to the console
+        System.out.println("\nValue of Roll 1: " + store.getRoll1()); // Print the value of roll 1
+        System.out.println("\nValue of Roll 2: " + store.getRoll2()); // Print the value of roll 2
         System.out.println("\nSum of the two rolls: " + store.getSum()); // Print the sum of the two rolls to the console
+        System.out.println("\nYour guess: " + store.getValue(value)); // Print the user's input to the console
+        store.setValue(value); // Take "value" as an argument for the setValue method in the Check class located in Root and match it against the sum of the rolls
     }
+
 }
